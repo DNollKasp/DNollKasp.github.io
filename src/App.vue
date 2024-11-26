@@ -12,6 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <RouterLink to="/" activeClass="active">Home</RouterLink>
           <RouterLink to="/about" activeClass="active">About</RouterLink>
           <RouterLink to="/nolldeklaration" activeClass="active">Nolldeklartion</RouterLink>
+          <RouterLink to="/pr" class="hidden">Pr</RouterLink>
         </nav>
     </div>
   </header>
@@ -46,6 +47,10 @@ footer {
 
 .footer img {
   width: 250px;
+}
+
+.hidden {
+  display: none;
 }
 
 header {
