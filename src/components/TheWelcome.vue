@@ -1,7 +1,7 @@
 <template>
   <div :style="backgroundStyle" class="welcome">
     <div>
-    <img src="../assets/dnollk-patch-jxXtwMoP.png" alt="" srcset="" >
+    <img src="/dtek-logo.svg" alt="" srcset="" >
     <h2>Välkomen till Minimottagningen!</h2>
     <p>Bästa arret efter den riktiga mottagningen</p>
   </div>
