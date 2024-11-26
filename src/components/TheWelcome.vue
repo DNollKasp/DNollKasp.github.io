@@ -22,10 +22,10 @@ export default defineComponent({
   setup() {
     const currentImageIndex = ref<number>(0);
     const images = ref<string[]>([
-      './src/assets/rolling/fullSize.jpg',
-      './src/assets/rolling/fullSize1.jpg',
-      './src/assets/rolling/fullSize2.jpg',
-      './src/assets/rolling/fullSize3.jpg',
+      '/rolling/fullSize.webp',
+      '/rolling/fullSize1.webp',
+      '/rolling/fullSize2.webp',
+      '/rolling/fullSize3.webp',
       // Add more images as needed
     ]);
     let intervalId: number | undefined;

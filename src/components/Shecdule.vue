@@ -58,13 +58,13 @@ import { defineComponent, ref } from 'vue';
 const showModal = ref(false)
 
 const items = ref([
-{ namn: 'Första dagen', show: false, src: "/src/assets/preview.jpg", alt: "", desc: "Här börjar äventyret. kom inte sent!", start: "10:01", plats: {namn: "Teknologgården", link: "https://maps.chalmers.se/#e61e2b38-a795-44cf-b973-c68a4305e65a"} },
-{ namn: 'Nollbrickstillverkning', show: false, src: "/src/assets/preview2.jpg", alt: "", desc: "Det är dags att skapa din viktigaste ägodel inför mottagningnen! Kom med ett glatt humör och ge inte upp!", start: "10:31", plats: {namn: "Vindgården", link: "https://maps.chalmers.se/#1a220220-04b9-11ec-8ac8-af7b728407b9"} },
+{ namn: 'Första dagen', show: false, src: "/preview.webp", alt: "", desc: "Här börjar äventyret. kom inte sent!", start: "10:01", plats: {namn: "Teknologgården", link: "https://maps.chalmers.se/#e61e2b38-a795-44cf-b973-c68a4305e65a"} },
+{ namn: 'Nollbrickstillverkning', show: false, src: "/preview2.webp", alt: "", desc: "Det är dags att skapa din viktigaste ägodel inför mottagningnen! Kom med ett glatt humör och ge inte upp!", start: "10:31", plats: {namn: "Vindgården", link: "https://maps.chalmers.se/#1a220220-04b9-11ec-8ac8-af7b728407b9"} },
 { namn: 'Lunchföreläsning', show: false, src: "", alt: "", desc: "tbc", start: "11:31", plats: {namn: "Basen", link: "https://maps.chalmers.se/#6967eb7c-ff54-4dd7-af00-9e19fcaba128"} },
-{ namn: '∆-dagen', show: false, src: "/src/assets/preview3.jpg", alt: "", desc: "Lär dig att häfva med Delta.", start: "12:01", plats: {namn: "∆-parken", link: "https://maps.chalmers.se/#1a220220-04b9-11ec-8ac8-af7b728407b9"} },
+{ namn: '∆-dagen', show: false, src: "/preview3.webp", alt: "", desc: "Lär dig att häfva med Delta.", start: "12:01", plats: {namn: "∆-parken", link: "https://maps.chalmers.se/#1a220220-04b9-11ec-8ac8-af7b728407b9"} },
 { namn: 'Suprise???', show: false, src: "", alt: "", desc: "Ta med er badkläder + handuk är allt ni får veta", start: "13:01", plats: {namn: "???", link: ""} },
-{ namn: 'Gasque', show: false, src: "/src/assets/preview4.jpg", alt: "", desc: "Nu ska vi Gasqua, var [fill in the blank] är min flaska?", start: "16:16", plats: {namn: "Gasquen", link: ""} },
-{ namn: 'Finsittning', show: false, src: "/src/assets/preview5.jpg", alt: "", desc: "Här kommer ni få en fantastisk sittning", start: "17:31", plats: {namn: "Basen", link: "https://maps.chalmers.se/#6967eb7c-ff54-4dd7-af00-9e19fcaba128"} }
+{ namn: 'Gasque', show: false, src: "/preview4.webp", alt: "", desc: "Nu ska vi Gasqua, var [fill in the blank] är min flaska?", start: "16:16", plats: {namn: "Gasquen", link: ""} },
+{ namn: 'Finsittning', show: false, src: "/preview5.webp", alt: "", desc: "Här kommer ni få en fantastisk sittning", start: "17:31", plats: {namn: "Basen", link: "https://maps.chalmers.se/#6967eb7c-ff54-4dd7-af00-9e19fcaba128"} }
 
 ])
 defineComponent({
